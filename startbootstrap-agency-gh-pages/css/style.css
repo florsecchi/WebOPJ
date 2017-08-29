@@ -156,7 +156,6 @@ fieldset[disabled] .btn-xl.active {
   background-image: url('../img/logos/logo1small.png'); 
   background-repeat: no-repeat;
   background-position: 10px; 
-  width: 300px;
   padding-left: 60px;
 }
 
@@ -234,11 +233,11 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    width: 400px;
   }
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
+
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
@@ -250,14 +249,6 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  /*background-image: url('../img/header-bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;*/
   background-color: white; 
   text-align: center;
   color: white;
@@ -291,6 +282,7 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
@@ -400,6 +392,7 @@ section h3.section-subheading {
 #portfolio * {
   z-index: 2;
 }
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
@@ -416,6 +409,7 @@ section h3.section-subheading {
   position: absolute;
   content: "";
   width: 2px;
+  height: 90%;
   background-color: #a6a6a6;
   left: 40px;
   margin-left: -1.5px;
@@ -454,9 +448,9 @@ section h3.section-subheading {
 }
 .timeline > li .timeline-image {
   left: 0;
-  margin-left: 0;
-  width: 80px;
-  height: 80px;
+  margin-left: -10px;
+  width: 100px;
+  height: 100px;
   position: absolute;
   z-index: 100;
   background-color: #57a695;
@@ -513,14 +507,14 @@ section h3.section-subheading {
   .timeline > li .timeline-panel {
     width: 41%;
     float: left;
-    padding: 0 20px 20px 30px;
+    padding: 0 30px 30px 40px;
     text-align: right;
   }
   .timeline > li .timeline-image {
-    width: 100px;
-    height: 100px;
+    width: 170px;
+    height: 170px;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -85px;
   }
   .timeline > li .timeline-image h4 {
     font-size: 13px;
@@ -530,7 +524,7 @@ section h3.section-subheading {
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     text-align: left;
-    padding: 0 30px 20px 20px;
+    padding: 0 40px 30px 30px;
   }
 }
 @media (min-width: 992px) {
@@ -541,9 +535,9 @@ section h3.section-subheading {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 180px;
-    height: 180px;
-    margin-left: -93px;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
   }
   .timeline > li .timeline-image h4 {
     font-size: 18px;
@@ -553,6 +547,8 @@ section h3.section-subheading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+
+
 }
 @media (min-width: 1200px) {
   .timeline > li {
@@ -562,12 +558,12 @@ section h3.section-subheading {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
+    width: 230px;
+    height: 230px;
+    margin-left: -115px;
   }
   .timeline > li .timeline-image h4 {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
@@ -781,7 +777,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #57a695;
+  -webkit-tap-highlight-color: #57a695;
 }
 
 #services {
@@ -823,3 +819,12 @@ footer {
     /*background: -webkit-gradient(left top, right top, color-stop(0%, rgba(171,169,148,1)), color-stop(12.5%, rgba(171,169,148,1)), color-stop(10%, rgba(255,205,41,1)), color-stop(17%, rgba(255,205,41,1)), color-stop(17%, rgba(250,170,84,1)), color-stop(27%, rgba(250,170,84,1)), color-stop(28%, rgba(199,94,162,1)), color-stop(40%, rgba(199,94,162,1)), color-stop(41%, rgba(164,95,77,1)), color-stop(52%, rgba(164,95,77,1)), color-stop(53%, rgba(240,98,119,1)), color-stop(67%, rgba(240,98,119,1)), color-stop(68%, rgba(87,166,149,1)), color-stop(86%, rgba(87,166,149,1)), color-stop(86%, rgba(92,198,208,1)), color-stop(100%, rgba(92,198,208,1)));*/
 
  }
+
+ .ultimo {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 0;
+    margin-top: -10px;
+ }
+
