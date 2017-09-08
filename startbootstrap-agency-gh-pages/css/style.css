@@ -152,7 +152,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #57a695;
-  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Montserrat", Helvetica, Arial, cursive;
   background-image: url('../img/logos/logo1small.png'); 
   background-repeat: no-repeat;
   background-position: 10px; 
@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
   background-color: #57a695;
   border-color: #57a695;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
